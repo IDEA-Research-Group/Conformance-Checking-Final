@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="pnml">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="lpo">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="name">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="value" type="xsd:string" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element maxOccurs="unbounded" name="event">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="name">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="value" type="xsd:string" />
+                          <xsd:element name="graphics">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="offset">
+                                  <xsd:complexType>
+                                    <xsd:attribute name="x" type="xsd:int" />
+                                    <xsd:attribute name="y" type="xsd:int" />
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="graphics">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="position">
+                            <xsd:complexType>
+                              <xsd:attribute name="x" type="xsd:int" />
+                              <xsd:attribute name="y" type="xsd:int" />
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                  <xsd:attribute name="id" type="xsd:string" />
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element maxOccurs="unbounded" name="lpoArc">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="graphics">
+                      <xsd:complexType>
+                        <xsd:attribute name="userDrawn" type="xsd:boolean" />
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                  <xsd:attribute name="id" type="xsd:string" />
+                  <xsd:attribute name="source" type="xsd:string" />
+                  <xsd:attribute name="target" type="xsd:string" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:string" />
+            <xsd:attribute name="type" type="xsd:string" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

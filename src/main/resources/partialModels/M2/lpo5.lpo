@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+<lpo id="lpo5"><name><value>lpo5.lpo</value></name>
+<event id="e77"><name><value>A</value></name></event>
+<event id="e78"><name><value>C</value></name></event>
+<event id="e79"><name><value>T</value></name></event>
+<event id="e80"><name><value>AD</value></name></event>
+<event id="e81"><name><value>V</value></name></event>
+<event id="e82"><name><value>Y</value></name></event>
+<event id="e83"><name><value>W</value></name></event>
+<event id="e84"><name><value>Z</value></name></event>
+<event id="e85"><name><value>AE</value></name></event>
+<event id="e86"><name><value>t30t20\n\n$invisible$</value></name></event>
+<event id="e87"><name><value>AC</value></name></event>
+<event id="e88"><name><value>AA</value></name></event>
+<event id="e89"><name><value>U</value></name></event>
+<event id="e90"><name><value>D</value></name></event>
+<event id="e91"><name><value>B</value></name></event>
+<lpoArc id="arc0" source="e77" target="e78"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc1" source="e78" target="e79"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc2" source="e79" target="e80"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc3" source="e79" target="e81"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc4" source="e79" target="e84"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc5" source="e80" target="e85"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc6" source="e81" target="e82"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc7" source="e82" target="e83"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc8" source="e83" target="e89"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc9" source="e84" target="e87"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc10" source="e85" target="e86"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc11" source="e86" target="e89"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc12" source="e87" target="e88"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc13" source="e88" target="e89"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc14" source="e89" target="e90"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc15" source="e90" target="e91"><graphics userDrawn="true"/></lpoArc>
+</lpo></pnml>

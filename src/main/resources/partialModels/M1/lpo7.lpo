@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+<lpo id="lpo7"><name><value>lpo7.lpo</value></name>
+<event id="e150"><name><value>A</value></name></event>
+<event id="e151"><name><value>C</value></name></event>
+<event id="e152"><name><value>E</value></name></event>
+<event id="e153"><name><value>L</value></name></event>
+<event id="e154"><name><value>N</value></name></event>
+<event id="e155"><name><value>M</value></name></event>
+<event id="e156"><name><value>F</value></name></event>
+<event id="e157"><name><value>D</value></name></event>
+<event id="e158"><name><value>B</value></name></event>
+<lpoArc id="arc0" source="e150" target="e151"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc1" source="e151" target="e152"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc2" source="e152" target="e153"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc3" source="e153" target="e154"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc4" source="e154" target="e155"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc5" source="e155" target="e156"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc6" source="e156" target="e157"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc7" source="e157" target="e158"><graphics userDrawn="true"/></lpoArc>
+</lpo></pnml>

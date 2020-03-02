@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+<lpo id="lpo4"><name><value>lpo4.lpo</value></name>
+<event id="e42"><name><value>A</value></name></event>
+<event id="e43"><name><value>C</value></name></event>
+<event id="e44"><name><value>E</value></name></event>
+<event id="e45"><name><value>G</value></name></event>
+<event id="e46"><name><value>H</value></name></event>
+<event id="e47"><name><value>F</value></name></event>
+<event id="e48"><name><value>D</value></name></event>
+<event id="e49"><name><value>B</value></name></event>
+<lpoArc id="arc0" source="e42" target="e43"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc1" source="e43" target="e44"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc2" source="e44" target="e45"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc3" source="e45" target="e46"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc4" source="e46" target="e47"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc5" source="e47" target="e48"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc6" source="e48" target="e49"><graphics userDrawn="true"/></lpoArc>
+</lpo></pnml>

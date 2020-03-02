@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+<lpo id="lpo93"><name><value>lpo93.lpo</value></name>
+<event id="e868674"><name><value>A</value></name></event>
+<event id="e868675"><name><value>C</value></name></event>
+<event id="e868676"><name><value>T</value></name></event>
+<event id="e868677"><name><value>V</value></name></event>
+<event id="e868678"><name><value>Y</value></name></event>
+<event id="e868679"><name><value>AD</value></name></event>
+<event id="e868680"><name><value>AE</value></name></event>
+<event id="e868681"><name><value>Z</value></name></event>
+<event id="e868682"><name><value>AF</value></name></event>
+<event id="e868683"><name><value>W</value></name></event>
+<event id="e868684"><name><value>AD</value></name></event>
+<event id="e868685"><name><value>AE</value></name></event>
+<event id="e868686"><name><value>AF</value></name></event>
+<event id="e868687"><name><value>AC</value></name></event>
+<event id="e868688"><name><value>AD</value></name></event>
+<event id="e868689"><name><value>AE</value></name></event>
+<event id="e868690"><name><value>AF</value></name></event>
+<event id="e868691"><name><value>AA</value></name></event>
+<event id="e868692"><name><value>AD</value></name></event>
+<event id="e868693"><name><value>AE</value></name></event>
+<event id="e868694"><name><value>AF</value></name></event>
+<event id="e868695"><name><value>AD</value></name></event>
+<event id="e868696"><name><value>AE</value></name></event>
+<event id="e868697"><name><value>AF</value></name></event>
+<event id="e868698"><name><value>AD</value></name></event>
+<event id="e868699"><name><value>AE</value></name></event>
+<event id="e868700"><name><value>AF</value></name></event>
+<event id="e868701"><name><value>AD</value></name></event>
+<event id="e868702"><name><value>AE</value></name></event>
+<event id="e868703"><name><value>AF</value></name></event>
+<event id="e868704"><name><value>AD</value></name></event>
+<event id="e868705"><name><value>AE</value></name></event>
+<event id="e868706"><name><value>AF</value></name></event>
+<event id="e868707"><name><value>AD</value></name></event>
+<event id="e868708"><name><value>AE</value></name></event>
+<event id="e868709"><name><value>AF</value></name></event>
+<event id="e868710"><name><value>AD</value></name></event>
+<event id="e868711"><name><value>AE</value></name></event>
+<event id="e868712"><name><value>AF</value></name></event>
+<event id="e868713"><name><value>AD</value></name></event>
+<event id="e868714"><name><value>AE</value></name></event>
+<event id="e868715"><name><value>t30t20\n\n$invisible$</value></name></event>
+<event id="e868716"><name><value>U</value></name></event>
+<event id="e868717"><name><value>D</value></name></event>
+<event id="e868718"><name><value>B</value></name></event>
+<lpoArc id="arc0" source="e868674" target="e868675"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc1" source="e868675" target="e868676"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc2" source="e868676" target="e868677"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc3" source="e868676" target="e868679"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc4" source="e868676" target="e868681"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc5" source="e868677" target="e868678"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc6" source="e868678" target="e868683"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc7" source="e868679" target="e868680"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc8" source="e868680" target="e868682"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc9" source="e868681" target="e868687"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc10" source="e868682" target="e868684"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc11" source="e868683" target="e868716"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc12" source="e868684" target="e868685"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc13" source="e868685" target="e868686"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc14" source="e868686" target="e868688"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc15" source="e868687" target="e868691"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc16" source="e868688" target="e868689"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc17" source="e868689" target="e868690"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc18" source="e868690" target="e868692"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc19" source="e868691" target="e868716"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc20" source="e868692" target="e868693"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc21" source="e868693" target="e868694"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc22" source="e868694" target="e868695"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc23" source="e868695" target="e868696"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc24" source="e868696" target="e868697"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc25" source="e868697" target="e868698"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc26" source="e868698" target="e868699"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc27" source="e868699" target="e868700"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc28" source="e868700" target="e868701"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc29" source="e868701" target="e868702"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc30" source="e868702" target="e868703"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc31" source="e868703" target="e868704"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc32" source="e868704" target="e868705"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc33" source="e868705" target="e868706"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc34" source="e868706" target="e868707"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc35" source="e868707" target="e868708"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc36" source="e868708" target="e868709"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc37" source="e868709" target="e868710"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc38" source="e868710" target="e868711"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc39" source="e868711" target="e868712"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc40" source="e868712" target="e868713"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc41" source="e868713" target="e868714"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc42" source="e868714" target="e868715"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc43" source="e868715" target="e868716"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc44" source="e868716" target="e868717"><graphics userDrawn="true"/></lpoArc>
+<lpoArc id="arc45" source="e868717" target="e868718"><graphics userDrawn="true"/></lpoArc>
+</lpo></pnml>
